@@ -3,6 +3,8 @@ flows:
 - steps:
   - kind: endpoint
     uri: twitter-mention
+  - kind: endpoint
+    uri: atlas:mapping-step-2.json
   - kind: log
     message: Hello, I was mentioned ${body}
     loggingLevel: INFO
